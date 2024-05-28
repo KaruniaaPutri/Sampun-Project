@@ -1,0 +1,314 @@
+.logo-icon12,
+.registrasi-child {
+  position: relative;
+  max-width: 100%;
+}
+.registrasi-child {
+  height: 97px;
+  width: 758px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.logo-icon12 {
+  align-self: stretch;
+  height: 763px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logo-frame {
+  height: 893px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 630px;
+  max-width: 100%;
+}
+.form-container-child {
+  width: 869px;
+  height: 1074px;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.register {
+  margin: 0;
+  width: 312px;
+  position: relative;
+  font-size: var(--font-size-41xl);
+  font-weight: 800;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.register-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-21xl) var(--padding-sm);
+}
+.no-hp1 {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-silver);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.input-labels-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.input-labels {
+  align-self: stretch;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.username1 {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-silver);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.input-labels-item {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 93px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 250px;
+  z-index: 1;
+}
+.input-labels1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: var(--gap-5xs);
+}
+.password2 {
+  width: 178px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-silver);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.password-input-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 93px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 250px;
+  z-index: 1;
+}
+.password-input-wrapper,
+.password-input1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.password-input1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.password-input-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.input-fields-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.register-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.register1 {
+  position: absolute;
+  top: 11px;
+  left: 282px;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: var(--font-plus-jakarta-sans);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 154px;
+  height: 41px;
+  cursor: pointer;
+  z-index: 3;
+}
+.register-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 95px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.register-button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-11xs);
+  max-width: 100%;
+}
+.form-container,
+.register-button-wrapper,
+.registrasi {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.form-container {
+  margin: 0;
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 91px var(--padding-31xl) var(--padding-94xl) var(--padding-38xl);
+  gap: var(--gap-71xl);
+  min-width: 565px;
+  max-width: 100%;
+}
+.registrasi {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-79xl);
+  gap: var(--gap-112xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .logo-icon12 {
+    align-self: stretch;
+    width: auto;
+  }
+  .logo-frame {
+    flex: 1;
+  }
+  .registrasi {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .form-container {
+    gap: var(--gap-26xl);
+    padding: var(--padding-40xl) var(--padding-6xl) var(--padding-54xl)
+      var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .registrasi {
+    gap: var(--gap-46xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo-frame {
+    min-width: 100%;
+  }
+  .register {
+    font-size: var(--font-size-29xl);
+  }
+  .register1 {
+    font-size: var(--font-size-7xl);
+  }
+  .form-container {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .register {
+    font-size: var(--font-size-17xl);
+  }
+  .no-hp1,
+  .password2,
+  .username1 {
+    font-size: var(--font-size-lgi);
+  }
+  .input-fields-container {
+    gap: var(--gap-mid);
+  }
+  .register1 {
+    font-size: var(--font-size-lgi);
+  }
+  .form-container {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .registrasi {
+    gap: var(--gap-14xl);
+  }
+}

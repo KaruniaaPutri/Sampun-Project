@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./AdminLogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Numans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-login">
+      <div class="logo-wrapper1">
+        <img
+          class="logo-icon18"
+          loading="lazy"
+          alt=""
+          src="./public/logo1@2x.png"
+        />
+      </div>
+      <div class="rectangle-parent27">
+        <div class="frame-child54"></div>
+        <div class="a-d-m-i-n-wrapper">
+          <h1 class="a-d-m">A D M I N</h1>
+        </div>
+        <div class="username-group">
+          <b class="username4">Username</b>
+          <input class="rectangle-input" type="text" />
+        </div>
+        <div class="frame-wrapper34">
+          <div class="password-group">
+            <b class="password5">Password</b>
+            <div class="rectangle-parent28">
+              <input class="frame-child55" type="text" />
+
+              <div class="frame-parent64">
+                <div class="rectangle-parent29">
+                  <div class="frame-child56"></div>
+                  <img
+                    class="check-icon2"
+                    loading="lazy"
+                    alt=""
+                    src="./public/check.svg"
+                  />
+                </div>
+                <div class="remember-me-wrapper">
+                  <div class="remember-me2">Remember me</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-wrapper35">
+          <div class="rectangle-parent30">
+            <div class="frame-child57" id="rectangle"></div>
+            <b class="login2" id="loginText">Login</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./AdminDashboard.html";
+        });
+      }
+      
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "./AdminDashboard.html";
+        });
+      }
+      </script>
+  </body>
+</html>

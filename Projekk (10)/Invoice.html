@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Invoice.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Numans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="invoice">
+      <header class="top-nav">
+        <div class="top-nav-child"></div>
+        <img
+          class="logo-icon7"
+          loading="lazy"
+          alt=""
+          src="./public/logo81@2x.png"
+        />
+
+        <div class="top-nav-inner">
+          <div class="frame-parent15">
+            <div class="beranda-frame">
+              <a class="beranda6">Beranda</a>
+            </div>
+            <div class="tentang-kami-wrapper2">
+              <a class="tentang-kami8">Tentang Kami</a>
+            </div>
+            <div class="fitur-wrapper1">
+              <a class="fitur7">Fitur</a>
+            </div>
+            <div class="notification">
+              <div class="profile-wrapper">
+                <div class="profile10">
+                  <div class="profile-child8"></div>
+                  <img
+                    class="coin-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/koin@2x.png"
+                    id="coinImage"
+                  />
+                </div>
+              </div>
+              <div class="rectangle-parent9">
+                <div class="frame-child18"></div>
+                <a class="profil5" id="profilText">profil</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="message-details">
+        <div class="message-details-inner">
+          <div class="frame-wrapper6">
+            <div class="vector-parent4">
+              <img class="ellipse-icon" alt="" src="./public/ellipse-151.svg" />
+
+              <img
+                class="frame-child19"
+                loading="lazy"
+                alt=""
+                src="./public/rectangle-4197.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="poin-telah-masuk-ke-akun-anda-parent">
+          <h2 class="poin-telah-masuk">30 POIN TELAH MASUK KE AKUN ANDA</h2>
+          <div class="provider-details">
+            <div class="penyedia-jasa-parent">
+              <b class="penyedia-jasa">Penyedia jasa</b>
+              <div class="provider-type">
+                <b class="sampun">SAMPUN</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="antarkan-barang-anda-ke-kantor-wrapper">
+          <h3 class="antarkan-barang-anda">
+            Antarkan barang anda ke kantor kami
+          </h3>
+        </div>
+        <div class="message-details-child">
+          <div class="rectangle-parent10">
+            <div class="frame-child20" id="rectangle"></div>
+            <b class="kembali1">Kembali </b>
+          </div>
+        </div>
+        <div class="message-details-inner1">
+          <div class="vector-parent5">
+            <img
+              class="frame-child21"
+              alt=""
+              src="./public/rectangle-42023.svg"
+            />
+
+            <b class="copyright-sampun-group5"
+              > © 2024 Copyright: Sampun Group</b
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var coinImage = document.getElementById("coinImage");
+      if (coinImage) {
+        coinImage.addEventListener("click", function (e) {
+          window.location.href = "./TukarPoin.html";
+        });
+      }
+      
+      var profilText = document.getElementById("profilText");
+      if (profilText) {
+        profilText.addEventListener("click", function (e) {
+          window.location.href = "Profile.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./FeatureTukarSampah.html";
+        });
+      }
+      </script>
+  </body>
+</html>

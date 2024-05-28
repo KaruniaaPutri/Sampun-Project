@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Numans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="brand-logo-container">
+        <img
+          class="logo-icon13"
+          loading="lazy"
+          alt=""
+          src="./public/logo15@2x.png"
+        />
+      </div>
+      <div class="login-form-container">
+        <div class="login-form-container-child"></div>
+        <div class="l-o-g-i-n-wrapper">
+          <h1 class="l-o-g">L O G I N</h1>
+        </div>
+        <div class="username-parent">
+          <b class="username2">Username</b>
+          <input class="username-input1" type="text" />
+        </div>
+        <div class="password-input-container-wrapper">
+          <div class="password-input-container">
+            <b class="password3">Password</b>
+            <div class="password-input-area">
+              <input class="password-input2" type="text" />
+
+              <div class="remember-me-container">
+                <div class="remember-me-checkbox-parent">
+                  <div class="remember-me-checkbox1"></div>
+                  <img
+                    class="check-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/check.svg"
+                  />
+                </div>
+                <div class="remember-me-label1">
+                  <div class="remember-me1">Remember me</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="login-button-container1">
+          <div class="login-button-area-parent">
+            <button class="login-button-area">
+              <img
+                class="login-button-area-child"
+                alt=""
+                src="./public/rectangle-9.svg"
+              />
+
+              <b class="login1" id="loginText">Login</b>
+            </button>
+            <div class="register-container">
+              <div class="belum-memiliki-akun-container" id="belumMemilikiAkun">
+                <span class="belum-memiliki-akun-container1">
+                  <span>Belum memiliki akun? </span>
+                  <span class="register2">Register </span>
+                  <span>terlebih dahulu</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "./HompegaeSetelahhLogin.html";
+        });
+      }
+      
+      var belumMemilikiAkun = document.getElementById("belumMemilikiAkun");
+      if (belumMemilikiAkun) {
+        belumMemilikiAkun.addEventListener("click", function (e) {
+          window.location.href = "./Registrasi.html";
+        });
+      }
+      </script>
+  </body>
+</html>

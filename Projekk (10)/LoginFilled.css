@@ -1,0 +1,298 @@
+.logo-icon2 {
+  align-self: stretch;
+  height: 763px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.content {
+  height: 893px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 630px;
+  max-width: 100%;
+}
+.auth-container-child {
+  width: 869px;
+  height: 1074px;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.username {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.username-field {
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.username-border {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  height: 93px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 250px;
+  max-width: 100%;
+  z-index: 1;
+}
+.username-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-31xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.password-field {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.password-border {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  height: 93px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 250px;
+  max-width: 100%;
+  z-index: 1;
+}
+.password-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-7xs) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.checkbox-mark {
+  position: absolute;
+  top: 27px;
+  left: 7px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 30px;
+  height: 26px;
+  z-index: 1;
+}
+.check-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.remember-me,
+.remember-me-checkbox {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.remember-me-checkbox {
+  height: 57px;
+  width: 57px;
+}
+.remember-me {
+  align-self: stretch;
+  font-weight: 300;
+  z-index: 1;
+}
+.remember-me-label,
+.remember-me-row,
+.remember-me-row-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.remember-me-label {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+  margin-left: -36px;
+}
+.remember-me-row,
+.remember-me-row-wrapper {
+  flex-direction: row;
+}
+.remember-me-row {
+  flex: 1;
+}
+.remember-me-row-wrapper {
+  width: 250px;
+  padding: 0 var(--padding-12xs) 153px;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.login-button-container-child {
+  height: 97px;
+  width: 758px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.masuk {
+  width: 154px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.login-button-container {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 282px var(--padding-22xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.login-button-container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-5xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+}
+.auth-container,
+.login-button-container-wrapper,
+.login-filled {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.auth-container {
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 323px var(--padding-32xl) var(--padding-94xl);
+  gap: var(--gap-9xs);
+  min-width: 565px;
+  max-width: 100%;
+}
+.login-filled {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-79xl);
+  gap: var(--gap-112xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-silver);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1350px) {
+  .logo-icon2 {
+    align-self: stretch;
+    width: auto;
+  }
+  .content {
+    flex: 1;
+  }
+  .login-filled {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .auth-container {
+    padding: 210px var(--padding-6xl) var(--padding-54xl);
+    box-sizing: border-box;
+  }
+  .login-filled {
+    gap: var(--gap-46xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .content {
+    min-width: 100%;
+  }
+  .masuk {
+    font-size: var(--font-size-7xl);
+  }
+  .login-button-container {
+    padding-left: var(--padding-122xl);
+    padding-right: var(--padding-122xl);
+    box-sizing: border-box;
+  }
+  .auth-container {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .masuk,
+  .password,
+  .remember-me,
+  .username {
+    font-size: var(--font-size-lgi);
+  }
+  .login-button-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .auth-container {
+    padding-top: var(--padding-117xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .login-filled {
+    gap: var(--gap-14xl);
+  }
+}
